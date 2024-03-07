@@ -1,0 +1,35 @@
+Paradgmas de programação é forma que usamos para classificar as linguagens de programação pela sua forma de funcionar
+
+Programação imperativa = programação procedual, poo.
+
+programação declarativa = programação funcional, programação reativação;
+
+Programação procedural - passo a passo, em uma ordem
+
+
+O bom de usar poo é que você vai fazer reuso de código, encapsulamento, polimorfismo, herança, organização etc
+
+No munod real tudo é objeto
+
+
+classe é descrição de um conjunto de objetos do mesmo tipo 
+
+As classes definem quais são as caracteristicas e os comportamentos que esses objetos em comum vão ter quando eles existirem 
+
+As caracteristicas são as propriedades/atributos
+
+os comportamentos são os metodos/procedimentos/funções
+
+usamos o nome tipo para falar das classes também
+
+Apartir de uma classe/tipo instanciamos varios objetos
+
+e eles podem ter valores diferentes
+
+Poo - conjunto de objetos que podem se relacionar um entre os outros
+
+Você não declara o objeto pessoa1, você declarou a variável. O objeto só está na memória
+a variável pessoa1 faz referência ao objeto do tipo Pessoa que está na memória
+
+Variáveis referenciam objetos, elas não são os objetos em si
+
