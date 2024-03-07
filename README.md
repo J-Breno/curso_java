@@ -4,7 +4,7 @@ esse curso vai abordar várias coisas. Como:
   <ul>
     <li>Poo</li>
     <li>Estrutura de dados</li>
-    <li>Algoritmos avançados<li>
+    <li>Algoritmos avançados</li>
     <li>JPA</li>
     <li>TDD</li>
     <li>Testes unitários</li>
