@@ -16,6 +16,7 @@ public class Principio {
         System.out.printf("GOL (%s): %d assentos disponíveis%n",
                 aviaoGol.ativo ? "Ativo": "Inativo",
                 aviaoGol.calcularAssentosDisponiveis());
-
     }
+
+
 }

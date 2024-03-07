@@ -34,3 +34,11 @@ a variável pessoa1 faz referência ao objeto do tipo Pessoa que está na memór
 Variáveis referenciam objetos, elas não são os objetos em si
 
 na UML uma linha trastejada com uma seta significa dependência
+
+O this faz referência ao próprio objeto
+
+quando eu coloco o static ela diz que a variável não pertence a uma instância, mas pertence a class, no caso eu não preciso instanciar;
+
+ela é única, ela é compartilhada, no caso ela não muda de acordo com outros instanciados, ele é tipo como uma variável global, se eu criar duas variáveis instanciando elas, e eu falar que um certo valor statico é 10, e depois falar que outro certo valor estatico é 15, o ultimo valor que vai ser atribuido, e é para os dois.
+
+o correto é acessar essa variável estatica pela propria class e não pela suas instancias	
