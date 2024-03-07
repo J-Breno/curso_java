@@ -33,3 +33,4 @@ a variável pessoa1 faz referência ao objeto do tipo Pessoa que está na memór
 
 Variáveis referenciam objetos, elas não são os objetos em si
 
+na UML uma linha trastejada com uma seta significa dependência

@@ -6,21 +6,16 @@ public class Principio {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        FolhaPagamento pagamento = new FolhaPagamento();
+        Aeronave aviaoGol = new Aeronave();
+        aviaoGol.totalAssentos = 100;
 
-        System.out.print("Digite o nome do funcionario: ");
-        Funcionario funcionario = new Funcionario();
-        funcionario.nome = sc.nextLine();
-        System.out.print("Digite as horas trabalhadas: ");
-        pagamento.horasTrabalhadas = sc.nextInt();
-        System.out.print("Digite o valor das horas trabalhadas: ");
-        pagamento.holerite.valorHorasTrabalhadas = sc.nextDouble();
-        System.out.print("Digite as horas extras trabalhadas: ");
-        pagamento.horasExtrasTrabalhadas = sc.nextInt();
-        System.out.print("Digite o valor das horas extra trabalhadas: ");
-        pagamento.holerite.valorHorasExtrasTrabalhadas = sc.nextDouble();
 
-        System.out.println();
-        System.out.println("O valor total é: " + pagamento.calcularSalario(funcionario));
+        aviaoGol.reservarAssentos(10);
+        aviaoGol.desativar();
+
+        System.out.printf("GOL (%s): %d assentos disponíveis%n",
+                aviaoGol.ativo ? "Ativo": "Inativo",
+                aviaoGol.calcularAssentosDisponiveis());
+
     }
 }
