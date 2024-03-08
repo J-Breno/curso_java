@@ -47,3 +47,5 @@ se você quiser acessar a um atributo estatico em um método, você não deve co
 Os métodos também podem ser staticos
 
 evite utilizar metodos staticos
+
+em métodos, não reaproveite as variáveis que você recebeu por parâmetro, crie uma nova variável dentro do método

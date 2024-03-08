@@ -14,7 +14,6 @@ public class Principio {
                 CalcularFormulaGeometrica.areaDoQuadrado());
         System.out.printf("O valor da área do Circulo é: %.2f%n",
                 CalcularFormulaGeometrica.areaDoCirculo());
-        ;
     }
 
 

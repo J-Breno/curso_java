@@ -5,7 +5,7 @@ public class FolhaPagamento {
 
     Holerite holerite = new Holerite();
 
-    public Double calcularSalario(Funcionario funcionario) {
+    public Double calcularSalario(final Funcionario funcionario) {
         Integer horas = horasTrabalhadas + horasExtrasTrabalhadas;
         Double valorTotal = holerite.calcularValorTotal() + horas;
         if(funcionario.quantidadeFilhos >= 1 ) {
