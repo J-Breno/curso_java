@@ -1,0 +1,32 @@
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Outros
+/target/        # Pode ser adicionado para projetos Maven
+/out/           # Supondo que 'out' seja um diretório de saída
+
+# Incluir src/main e src/test (supondo que esses diretórios contenham código-fonte)
+!**/src/main/**
+!**/src/test/**
