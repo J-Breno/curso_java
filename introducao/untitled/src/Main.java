@@ -7,7 +7,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Carro meuCarro = new Carro();  // o new está instanciando, criando um objeto carro
+        var meuCarro = new Carro();  // o new está instanciando, criando um objeto carro
         meuCarro.modelo = "Civic";
         meuCarro.anoFabricacao = 2022;
         meuCarro.cor = "Preto";
