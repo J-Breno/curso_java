@@ -42,3 +42,8 @@ quando eu coloco o static ela diz que a variável não pertence a uma instância
 ela é única, ela é compartilhada, no caso ela não muda de acordo com outros instanciados, ele é tipo como uma variável global, se eu criar duas variáveis instanciando elas, e eu falar que um certo valor statico é 10, e depois falar que outro certo valor estatico é 15, o ultimo valor que vai ser atribuido, e é para os dois.
 
 o correto é acessar essa variável estatica pela propria class e não pela suas instancias	
+se você quiser acessar a um atributo estatico em um método, você não deve colocar a palavra this, mas deve colocar o proprio nome do objeto
+
+Os métodos também podem ser staticos
+
+evite utilizar metodos staticos

@@ -6,16 +6,15 @@ public class Principio {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Aeronave aviaoGol = new Aeronave();
-        aviaoGol.totalAssentos = 100;
-
-
-        aviaoGol.reservarAssentos(10);
-        aviaoGol.desativar();
-
-        System.out.printf("GOL (%s): %d assentos disponíveis%n",
-                aviaoGol.ativo ? "Ativo": "Inativo",
-                aviaoGol.calcularAssentosDisponiveis());
+        System.out.print("Diga o valor da base: ");
+        CalcularFormulaGeometrica.base = sc.nextDouble();
+        System.out.print("Diga o valor da altura: ");
+        CalcularFormulaGeometrica.altura = sc.nextDouble();
+        System.out.printf("O valor da área do quadrado é: %.2f%n",
+                CalcularFormulaGeometrica.areaDoQuadrado());
+        System.out.printf("O valor da área do Circulo é: %.2f%n",
+                CalcularFormulaGeometrica.areaDoCirculo());
+        ;
     }
 
 
