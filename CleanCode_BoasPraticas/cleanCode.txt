@@ -1,0 +1,43 @@
+Escolha bons nomes, explicativos, e bem fácil de entender
+
+Priorize isso! Mesmo que demore! 
+
+nao importa se o nome ficar grande, se possivel use constantes. 
+
+Evite nomes que só você vai entender
+
+O nome de classes não deve ser verbo, ele deve ser substantivo, use nomes descritivos
+
+Sempre que possivel refatore ele, mesmo que na epoca você já achava ele bom e agora percebeu que não é tão nom
+
+primeiro inicie a sua classe com a inicialização dos métodos
+
+Faça classes pequenas (pequenas não quer falar sobre linhas, mas fala sobre suas responsabilidades, se ela não está fugindo da sua função
+
+Se possivel não use comentários, só se realmente for possivel
+
+Metodos devem ser pequenos, eles devem ser menores do que eu pensei
+
+o quão pequeno? de preferência uma linha kkk, no max 20 linhas, estourando. mas sempre que possivel, quebre o codigo, e faça que cada coisa tenha uma função, fazendo uma única coisa.
+
+Se você verificar outro método dentro de um método, você vai quebra-lo
+
+mesmo que você tenha mais códigos na classe, o importante é está bem limpo e explicativo
+
+se possivel, nos if utilize apenas uma linha, qualquer coisa, faça um método, para ser o que o if vai executar
+
+qual seria a quantidade ideal de argumentos para os metodos? 0 ou 1;
+o ideal seria isso, mas as vezes não precisa; as vezes tem metodos que podem ser representados por classes para não terem que ser passados parâmetros
+
+quanto mais argumentos, mais sujo fica
+
+é mais facil de confundir quando tem muitos argumentos
+
+se possivel faça uma classe para não ter que passar muitos argumentos
+
+
+se você tem um método que faz duas coisas você pode quebrar ele em dois, e cada um fazendo uma coisa.
+tipo um método de ativar e outro de desativar
+
+nunca passe null como argumento
+
