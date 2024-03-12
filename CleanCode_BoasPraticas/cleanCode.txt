@@ -41,3 +41,5 @@ tipo um método de ativar e outro de desativar
 
 nunca passe null como argumento
 
+use sobrecarga de metodos, enves de passar null como parÂmetro
+

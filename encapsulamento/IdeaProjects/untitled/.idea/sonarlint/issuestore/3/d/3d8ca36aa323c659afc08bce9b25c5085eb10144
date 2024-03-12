@@ -1,0 +1,44 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ëº·›ùÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Çµí‘
+:
+java:S1659"Declare "n" on a separate line.(÷Í²ÿÿÿÿÿ
+<
+java:S1659"!Declare "num" on a separate line.(èÏÿÿÿÿÿ
+^
+java:S16590"CDeclare "valor2" and all following declarations on a separate line.(ÙÚÍ¼ıÿÿÿÿ
+7
+java:S1659U""Declare "num3" on a separate line.(öÈş;
+;
+java:S1659x"%Declare "divisor" on a separate line.(§ïÃñ
+E	java:S106"+Replace this use of System.out by a logger.(Ì»¾¾şÿÿÿÿ
+A
+java:S1481"&Remove this unused "i" local variable.(àÍªøÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(†™ñ‹
+@	java:S106"+Replace this use of System.out by a logger.(ˆú•
+@	java:S106"+Replace this use of System.out by a logger.(Öè‡
+@	java:S106*"+Replace this use of System.out by a logger.(Çç¾Ş
+@	java:S106+"+Replace this use of System.out by a logger.(€£‚
+?	java:S1066"+Replace this use of System.out by a logger.(•ïÀX
+@	java:S106;"+Replace this use of System.out by a logger.(Öè‡
+E	java:S106M"+Replace this use of System.out by a logger.(ÄûÃÔşÿÿÿÿ
+@	java:S106N"+Replace this use of System.out by a logger.(¡ï±
+E	java:S106O"+Replace this use of System.out by a logger.(øÿÿÿÿ
+@	java:S106P"+Replace this use of System.out by a logger.(Şì¨Ë
+@
+java:S3457X"%String contains no format specifiers.(úºÉ™ÿÿÿÿÿ
+E	java:S106X"+Replace this use of System.out by a logger.(úºÉ™ÿÿÿÿÿ
+@	java:S106\"+Replace this use of System.out by a logger.(ã¤¢¡
+@	java:S106`"+Replace this use of System.out by a logger.(ÿ©Ü
+E	java:S106d"+Replace this use of System.out by a logger.(ÈÓ¿Šùÿÿÿÿ
+E	java:S106k"+Replace this use of System.out by a logger.(¬—ÏÙûÿÿÿÿ
+@	java:S106u"+Replace this use of System.out by a logger.(Âæ“ú
+E	java:S106z"+Replace this use of System.out by a logger.(¥ş—Åúÿÿÿÿ
+F	java:S106€"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ
+F	java:S106†"+Replace this use of System.out by a logger.(ßÒÓÛúÿÿÿÿ
+A	java:S106‰"+Replace this use of System.out by a logger.(È«Ì
+|
+java:S1128"aRemove this unused import 'com.sun.xml.internal.bind.v2.runtime.output.StAXExStreamWriterOutput'.(ä«—’ùÿÿÿÿ

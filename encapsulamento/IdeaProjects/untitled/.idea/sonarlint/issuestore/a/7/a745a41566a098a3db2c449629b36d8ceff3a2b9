@@ -1,0 +1,26 @@
+
+e	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ú‚V
+e	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ú‚V
+e	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ú‚V
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(şÿ„‡
+0
+java:S1220""Move this file to a named package.
+S
+java:S1659	">Declare "B" and all following declarations on a separate line.(¡ú‚V
+Y
+java:S1659">Declare "b" and all following declarations on a separate line.(ÅÄÈ¾şÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¨©»Îıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(œ˜Œ
+@	java:S106"+Replace this use of System.out by a logger.(˜ÖìÎ
+E	java:S106"+Replace this use of System.out by a logger.(ƒ™ıûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(™ÜÈÍ
+E	java:S106"+Replace this use of System.out by a logger.(ìéÄâøÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(Ñì½
+@	java:S106"+Replace this use of System.out by a logger.(Ë«™
+E	java:S106%"+Replace this use of System.out by a logger.(ÛÙŸ¦ùÿÿÿÿ
+@	java:S106*"+Replace this use of System.out by a logger.(è¡á¥
+@	java:S106+"+Replace this use of System.out by a logger.(ò•ıĞ
+I
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ

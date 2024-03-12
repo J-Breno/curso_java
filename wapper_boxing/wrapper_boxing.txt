@@ -1,0 +1,17 @@
+Os tipos primitivos não são objetos.	
+
+As classes wrapper representam um tipo primitivo especifico
+Nelas eu posso colocar null, isso é bom, pois as vezes nos bancos de dados, tem valores null;
+
+Autoboxing o compilador está automaticamente convertendo em um novo wrapper do seu tipo
+unboxing é o ao contrário, e o compilador faz isso automáticamente
+O Wrapper das variáveis referenciam um objeto em memória, se você for comparar um valor com o outro, eles vão comparar os valores em memória e não o seu valor da variável
+
+Qualquer numero acima de 128 ele não vai fazer o casting ele vai é instanciar um novo objeto
+
+então para comparar devemos utilizar o metodo equals e não o ==
+ele compara o conteúdo, porém ele também compara os tipos
+
+quando eu devo utilizar os tipo wrapper ou usar o tipo primitivo
+
+não use tipo wrapper para tudo, depende do momento

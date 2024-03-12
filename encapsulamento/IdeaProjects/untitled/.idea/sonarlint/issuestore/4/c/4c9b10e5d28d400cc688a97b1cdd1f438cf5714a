@@ -1,0 +1,50 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉóŸ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉóŸ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉóŸ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉóŸ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ùßÿûÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+S
+java:S1854G"8Remove this useless assignment to local variable "cod2".(ÊøÌşÿÿÿÿÿ
+M
+java:S1854E"7Remove this useless assignment to local variable "cod".(ø£ö©
+T
+java:S1659
+">Declare "y" and all following declarations on a separate line.(Ç¨ÁÔ
+\
+java:S1659"ADeclare "raio" and all following declarations on a separate line.(¼í÷­ÿÿÿÿÿ
+T
+java:S1659">Declare "B" and all following declarations on a separate line.(ÉóŸ
+Y
+java:S1659"">Declare "s" and all following declarations on a separate line.(õœ—·úÿÿÿÿ
+Z
+java:S1659-"?Declare "v2" and all following declarations on a separate line.(‹æ¶…úÿÿÿÿ
+Z
+java:S1659."DDeclare "circulo" and all following declarations on a separate line.(åó»
+W
+java:S1659@"ADeclare "cod2" and all following declarations on a separate line.(ªöÒë
+^
+java:S1659A"CDeclare "valor2" and all following declarations on a separate line.(ü¦ƒ™øÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(§¡†¦
+@	java:S106"+Replace this use of System.out by a logger.(ïîäş
+@	java:S106 "+Replace this use of System.out by a logger.(Ğ¹é
+E	java:S106*"+Replace this use of System.out by a logger.(Ÿ½ïüÿÿÿÿ
+@	java:S106+"+Replace this use of System.out by a logger.(¡ÑŞé
+E	java:S106:"+Replace this use of System.out by a logger.(”À¤üÿÿÿÿ
+E	java:S106;"+Replace this use of System.out by a logger.(›„Ãúÿÿÿÿ
+E	java:S106<"+Replace this use of System.out by a logger.(ôÅ‰ıÿÿÿÿ
+E	java:S106="+Replace this use of System.out by a logger.(›ßışÿÿÿÿ
+@	java:S106>"+Replace this use of System.out by a logger.(­úó¨
+>
+java:S1481@"(Remove this unused "cod" local variable.(ªöÒë
+?
+java:S1481@")Remove this unused "cod2" local variable.(ªöÒë
+@	java:S106D"+Replace this use of System.out by a logger.(™ìÁˆ
+E	java:S106F"+Replace this use of System.out by a logger.(Áµæüÿÿÿÿ
+@	java:S106H"+Replace this use of System.out by a logger.(ÚÅú°
+?	java:S106J"+Replace this use of System.out by a logger.(·ÛŠd
+?	java:S106L"+Replace this use of System.out by a logger.(È°§z
+E	java:S106N"+Replace this use of System.out by a logger.(½µ¸şÿÿÿÿ
+E	java:S106U"+Replace this use of System.out by a logger.(Ñ¥¢¬ÿÿÿÿÿ

@@ -1,0 +1,14 @@
+Estrutura da mémoria da JVM
+
+Mémoria heap - fica os objetos onde instanciamos quando usamos o operador new
+
+Mémoria não heap - existe várias subsistemas
+	- stack memory = onde fica as pilhas de chamadas de métodos, e variáveis de tipos primitivos, ou seja, um int ou algo do tipo; um método que chama outro e assim por diante, é chamado de call stack;
+
+build - versão compilada
+
+Call stack é o local na mémoria onde os objetos que você instancia são olocados
+
+a não heap memoria existe várias subsistemas um delas é o stack memory
+
+Se existe algum objeto que ninguém está apontando para ele, chega um momneto que o garbade collation vai lá a aponta para ele
