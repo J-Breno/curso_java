@@ -10,7 +10,7 @@ public class Principal {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         var gestorFiscal = new GestorFiscal();
-        var nf = new NotaFiscal("Agc", 500);
+
         var nfBolaFutebol = new NotaFiscalProduto("Bola Futebol", 300, 50);
         var nfReparoMotor = new NotaFiscalServico("Reparo do motor", 900, true);
 
