@@ -21,14 +21,15 @@ public class Conta {
 
     public double getSaldo() { return saldo; }
 
+    public boolean possuiGratuidadeImpressao() {
+        return false;
+    }
+
 
     protected void validarSaldoParaSaque(double valorSaque) {
         if(getSaldo() < valorSaque ) {
             throw new IllegalArgumentException("Valor do saque deve ser maior do que 0");
         }
-
-
-        saldo -= valorSaque;
     }
 
     public void sacar(double valorSaque) {

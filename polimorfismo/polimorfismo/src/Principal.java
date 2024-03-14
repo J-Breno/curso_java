@@ -10,6 +10,8 @@ public class Principal {
         ContaEspecial conta1 = new ContaEspecial(new Titular("João da Silva", "123.456.789-10"),
                 1234, 999999, 90);
         conta1.setLimiteChequeEspecial(1000);
+        conta1.depositar(100);
+        conta1.creditarRendimentos(10);
 
         ContaInvestimento conta2 = new ContaInvestimento(new Titular("João da Silva", "123.456.789-10"),
                 1234, 999999 );
