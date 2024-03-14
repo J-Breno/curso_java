@@ -27,7 +27,6 @@ public class Conta {
             throw new IllegalArgumentException("Valor do saque deve ser maior do que 0");
         }
 
-        validarSaldoParaSaque(valorSaque);
 
         saldo -= valorSaque;
     }
