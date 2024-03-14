@@ -1,28 +1,19 @@
 import com.github.JBreno.banco.*;
+import com.github.JBreno.fiscal.GestorFiscal;
+import com.github.JBreno.fiscal.NotaFiscal;
+import com.github.JBreno.fiscal.NotaFiscalProduto;
+import com.github.JBreno.fiscal.NotaFiscalServico;
 
 import java.util.Locale;
 
 public class Principal {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
-        CaixaEletronico caixaEletronico = new CaixaEletronico();
+        var gestorFiscal = new GestorFiscal();
+        var nf = new NotaFiscal("Agc", 500);
+        var nfBolaFutebol = new NotaFiscalProduto("Bola Futebol", 300, 50);
+        var nfReparoMotor = new NotaFiscalServico("Reparo do motor", 900, true);
 
-        ContaEspecial conta1 = new ContaEspecial(new Titular("João da Silva", "123.456.789-10"),
-                1234, 999999, 90);
-        conta1.setLimiteChequeEspecial(1000);
-        conta1.depositar(100);
-        conta1.creditarRendimentos(10);
-
-        ContaInvestimento conta2 = new ContaInvestimento(new Titular("João da Silva", "123.456.789-10"),
-                1234, 999999 );
-
-        conta2.depositar(100);
-        conta2.creditarRendimentos(10);
-
-        ContaSalario conta3 = new ContaSalario(new Titular("João da Silva", "123.456.789-10"),
-                1234, 999999 , 18000);
-        conta3.depositar(100.0);
-
-        caixaEletronico.imprimirDemonstrativo(conta1);
+       gestorFiscal.emitirNotasFiscais(nfBolaFutebol, nfReparoMotor);
     }
 }
