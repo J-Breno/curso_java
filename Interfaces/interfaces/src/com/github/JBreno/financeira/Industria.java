@@ -1,6 +1,6 @@
 package com.github.JBreno.financeira;
 
-public class Industria extends EmpresaFinanciavel {
+public class Industria extends EmpresaFinanciavel{
 
     public static final double PERCENTUAL_FATURAMENTO_LIMITE_CREDITO = 0.5;
     public static final double TAXA_ACRESCIMO_LIMITE_INDUSTRIA_SUSTENTAVEL = 1.2;
@@ -30,4 +30,5 @@ public class Industria extends EmpresaFinanciavel {
 
         return valorAprovado;
     }
+
 }

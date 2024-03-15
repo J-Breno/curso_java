@@ -1,21 +1,22 @@
 package com.github.JBreno.servico;
 
-import com.github.JBreno.financeira.Empresa;
-import com.github.JBreno.financeira.EmpresaFinanciavel;
+import com.github.JBreno.financeira.ClienteFinanciavel;
 
 public class ServicoFinanceiro {
 
-    public void solicitarFinanciamento(EmpresaFinanciavel empresa, double valorSolicitado) {
-        double limiteAprovado = empresa.calcularLimiteAprovado();
+    public void solicitarFinanciamento(ClienteFinanciavel cliente, double valorSolicitado) {
+        double limiteAprovado = cliente.calcularLimiteAprovado();
+        double jurosCalculado = cliente.calcularJuros(valorSolicitado);
 
         if(limiteAprovado < valorSolicitado) {
             throw new RuntimeException(String.format("Financiamento não aprovado. Limite máximo de %.2f%n", limiteAprovado));
         }
 
-        System.out.printf("DEBUG: Financiamento aprovado. Limite máximo de %.2f%n", limiteAprovado);
+        System.out.printf("DEBUG: Financiamento aprovado no valor de R$%.2f com juros de %.2f%%. Limite máximo de %.2f%n",
+                valorSolicitado, jurosCalculado, limiteAprovado);
     }
 
-    public double consultarLimiteAprovado(EmpresaFinanciavel empresa) {
+    public double consultarLimiteAprovado(ClienteFinanciavel empresa) {
         return empresa.calcularLimiteAprovado();
     }
 }

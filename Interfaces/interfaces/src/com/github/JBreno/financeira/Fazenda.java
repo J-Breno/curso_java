@@ -1,6 +1,6 @@
 package com.github.JBreno.financeira;
 
-public class Fazenda  extends  EmpresaFinanciavel{
+public class Fazenda extends EmpresaFinanciavel{
 
     public static final double PERCENTUAL_FATURAMENTO_LIMITE_CREDITO = 0.5;
     public static final double TAXA_ACRESCIMO_LIMITE_PARA_GRANDE_PRODUTIVIDADE = 1.2;
@@ -25,6 +25,7 @@ public class Fazenda  extends  EmpresaFinanciavel{
             limiteAprovado *= TAXA_ACRESCIMO_LIMITE_PARA_GRANDE_PRODUTIVIDADE;
         }
 
-        return limiteAprovado                               ;
+        return limiteAprovado;
     }
+
 }

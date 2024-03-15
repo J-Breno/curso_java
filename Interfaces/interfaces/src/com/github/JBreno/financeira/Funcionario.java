@@ -1,12 +1,23 @@
 package com.github.JBreno.financeira;
 
-public class Funcionario extends EmpresaFinanciavel{
+public class Funcionario implements ClienteFinanciavel{
+
+    public static final int QUANTIDADE_SALARIO_LIMITE_CREDITO = 5;
 
     private double salarioMensal;
+    private String nome;
 
-    public Funcionario(String nome, double salarioMensal) {
-        super(nome, 0);
+    public Funcionario( String nome, double salarioMensal) {
         this.salarioMensal = salarioMensal;
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public double getSalarioMensal() {
@@ -19,6 +30,6 @@ public class Funcionario extends EmpresaFinanciavel{
 
     @Override
     public double calcularLimiteAprovado() {
-        return 0;
+        return getSalarioMensal() * QUANTIDADE_SALARIO_LIMITE_CREDITO;
     }
 }

@@ -1,7 +1,6 @@
 package com.github.JBreno.financeira;
 
 public class LojaVarejista extends EmpresaFinanciavel {
-
     public static final double PERCENTUAL_FATURAMENTO_LIMITE_CREDITO = 0.2;
     public static final double PERCENTUAL_VALOR_ESTOQUE_LIMITE_CREDITO = 0.5;
 
@@ -26,4 +25,5 @@ public class LojaVarejista extends EmpresaFinanciavel {
         return (getTotalFaturamento() * PERCENTUAL_FATURAMENTO_LIMITE_CREDITO) + (getTotalFaturamento() * getValorTotalEstoque() * PERCENTUAL_VALOR_ESTOQUE_LIMITE_CREDITO);
 
     }
+
 }
