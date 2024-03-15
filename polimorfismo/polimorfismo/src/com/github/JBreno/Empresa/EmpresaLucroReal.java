@@ -1,0 +1,15 @@
+package com.github.JBreno.Empresa;
+
+public class EmpresaLucroReal extends PessoaJuridica{
+
+    public static double ALIQUOTA_IMPOSTO_LUCRO = 0.25;
+
+    public EmpresaLucroReal(String nome, double faturamentoAnual, double despesaAnual) {
+        super(nome, faturamentoAnual, despesaAnual);
+    }
+
+    @Override
+    public double calcularImpostos() {
+        return getLucroAnual() * ALIQUOTA_IMPOSTO_LUCRO;
+    }
+}
