@@ -1,19 +1,21 @@
 package com.github.JBreno.contaspagar.servico;
 
-import com.github.JBreno.pagamento.Beneficiario;
 import com.github.JBreno.pagamento.DocumentoPagavel;
+import com.github.JBreno.pagamento.MetodoPagamento;
 
 public class ServicoContaPagar {
 
+    private MetodoPagamento metodoPagamento;
+
+    public ServicoContaPagar(MetodoPagamento metodoPagamento) {
+        this.metodoPagamento = metodoPagamento;
+    }
+
+
+
     public void pagar(DocumentoPagavel documento) {
-        Beneficiario beneficiario = documento.getBeneficiario();
 
-        if(beneficiario.naoPossuiChavePix()) {
-            throw new RuntimeException("Beneficiário não possui chave Pix");
-        }
-
-        System.out.printf("DEBUG: Efetuando PIX para %s no valor de %.2f com a chave %s%n",
-                beneficiario.getNome(), documento.getValorTotal(), beneficiario.getChavePix());
+        metodoPagamento.pagar(documento);
     }
 
 }

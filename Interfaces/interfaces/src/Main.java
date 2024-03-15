@@ -1,8 +1,7 @@
 import com.github.JBreno.contaspagar.modelo.Holerite;
 import com.github.JBreno.contaspagar.modelo.OrdemServico;
 import com.github.JBreno.contaspagar.servico.ServicoContaPagar;
-import com.github.JBreno.pagamento.Beneficiario;
-import com.github.JBreno.pagamento.DocumentoPagavel;
+import com.github.JBreno.pagamento.*;
 
 import java.util.Locale;
 
@@ -20,7 +19,9 @@ public class Main {
         // ele aciona o mecanismo que ligag
         Locale.setDefault(Locale.US);
 
-        ServicoContaPagar servicoContaPagar = new ServicoContaPagar();
+        MetodoPagamento pagamento = new Transferencia();
+
+        ServicoContaPagar servicoContaPagar = new ServicoContaPagar(pagamento);
 
         Beneficiario funcionario = new Beneficiario("João da Sulva", "99 999999999",
                 "123456");
