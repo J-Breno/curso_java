@@ -21,7 +21,8 @@ public class CarroParticular extends VeiculoAutomotor {
         StringBuilder sb = new StringBuilder();
         sb.append("Carro particular ");
         sb.append(getModelo());
-        sb.append(" ano " + getAnoFabricacao());
+        sb.append(" ano " );
+        sb.append( getAnoFabricacao());
         sb.append(", avaliado em R$");
         sb.append(String.format("%.2f", getValorMercado()));
         return sb.toString();

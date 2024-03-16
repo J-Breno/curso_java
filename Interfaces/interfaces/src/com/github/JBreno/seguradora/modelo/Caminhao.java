@@ -28,8 +28,10 @@ public class Caminhao extends VeiculoAutomotor{
         StringBuilder sb = new StringBuilder();
         sb.append("Caminhão ");
         sb.append(getModelo());
-        sb.append(" ano " + getAnoFabricacao());
-        sb.append(", " + getQuantidadeEixos());
+        sb.append(" ano ");
+        sb.append(getAnoFabricacao());
+        sb.append(", ");
+        sb.append(getQuantidadeEixos());
         sb.append(" eixos, avaliado em R$");
         sb.append(String.format("%.2f", getValorMercado()));
         return sb.toString();
