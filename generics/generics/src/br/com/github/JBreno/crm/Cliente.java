@@ -1,6 +1,6 @@
 package br.com.github.JBreno.crm;
 
-public class Cliente {
+public class Cliente implements Nomeavel{
 
     private String razaoSocial;
     private double faturamentoMensal;
@@ -24,5 +24,17 @@ public class Cliente {
 
     public void setFaturamentoMensal(double faturamentoMensal) {
         this.faturamentoMensal = faturamentoMensal;
+    }
+
+    public String toString() {
+        return "Cliente {" +
+                "razaoSocial=" + getRazaoSocial() +
+                ", faturamentoMensal=" + getFaturamentoMensal() +
+                "}";
+    }
+
+    @Override
+    public String getNome() {
+        return getRazaoSocial();
     }
 }
