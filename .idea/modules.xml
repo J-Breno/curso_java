@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javaAvancado.iml" filepath="$PROJECT_DIR$/javaAvancado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trabalhandoString/trabalhandoString.iml" filepath="$PROJECT_DIR$/trabalhandoString/trabalhandoString.iml" />
     </modules>
   </component>
 </project>
