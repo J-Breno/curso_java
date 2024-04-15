@@ -1,0 +1,14 @@
+poll de String é uma área que fica dentro da memória heap
+
+A JVM guarda a String em local específico para reutilizar um objeto quando surgir uma demanda
+por uma String de valor igual que surgiu no futuro, no lugar de criar um novo objeto
+isso no caso é para não gastar muita memória
+antes de criar um novo local de memória a JVM vai localizar a String com o mesmo conteúdo
+no pool de Strings e se a String for encontrada o mesmo endereço de memória vai ser atribuido
+então isso indica que vai ter duas variáveis apontnadno para o mesmo obejto
+a class String é imutável
+mas quando instanciamos uma nova Strnig com o new, a JVM vai sempre criar um novo objeto em outro lugar
+da memória, mesmo que o conteúdo seja o mesmo, não vai usar o pool de String.
+isso vai ocupar mais memória da JVM
+por isso se você quiser comparar utilize o equals enves de ==
+
